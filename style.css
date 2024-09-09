@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+
+.hero_ {
+  background: linear-gradient(rgba(0, 0, 0, 0.671), rgba(25, 43, 83, 0.603)),
+    url("https://img.freepik.com/free-photo/closeup-shot-barbequed-meat-glass-wine-near-fireplace_181624-58053.jpg?t=st=1725710617~exp=1725714217~hmac=62319dc3c3346f7c1b929a8ae79edf0a0f5b8c2735fd856ee8f6110c8925a0c4&w=740");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+h1,
+h2,
+h3,
+a,
+h5,
+label {
+  font-family: "Protest Guerrilla", sans-serif;
+}
+
+/* body{
+  height: 100vh;
+} */
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+#menu h1 {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+}
+
+#aboutus h2 {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+}
+
+#contact h2 {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+}
+
+.card p {
+  font-weight: 700;
+  font-size: smaller;
+}
+
+.card img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#aboutus img {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mx__ {
+  margin: auto;
+}
+
+/* .mx_p {
+  padding-inline: 1rem;
+} */
+
+.contact_ {
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media screen and (min-width: 500px) {
+  .contact_ {
+    padding-inline: 3rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.ul__ span {
+  color: rgb(75, 131, 131);
+}
+
+.ul__ {
+  margin: auto;
+}
+
+.ul__ li {
+  list-style: none;
+}
+
+.fot_text p {
+  max-width: 400px;
+  margin: auto;
+}
